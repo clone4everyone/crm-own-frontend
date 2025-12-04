@@ -1,16 +1,83 @@
-# React + Vite
+CRM System – Multi-Dashboard Desktop Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful CRM desktop application built with Electron.js that provides role-based dashboards, real-time employee tracking, and comprehensive company management tools.
 
-Currently, two official plugins are available:
+🚀 Features
+🔐 Multi-Role Dashboards (6 Dashboards)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Admin Dashboard – Manage users, roles, teams, and system controls
 
-## React Compiler
+Sales Dashboard – Track leads, deals, revenue, and sales pipeline
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Developer Dashboard – View tasks, sprints, project progress
 
-## Expanding the ESLint configuration
+UI/UX Designer Dashboard – Manage design tasks, assets, feedback
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Client Dashboard – Access project updates, timelines, deliverables
+
+Employee Dashboard – Personal tasks, attendance, activity logs
+
+🧩 Core Modules
+1. Attendance Management
+
+Daily check-in/check-out
+
+Automatic time calculation
+
+Attendance logs for each employee
+
+2. Sales Management
+
+Deal tracking
+
+Sales analytics
+
+Lead management and performance metrics
+
+3. Real-Time Employee Work Tracker
+
+Tracks active applications (VS Code, Hostinger, Browser, etc.)
+
+Detects idle time / active work time
+
+Real-time monitoring for improved productivity insight
+
+4. Company Analytics
+
+Team performance overview
+
+Employee activity charts
+
+Department-wise stats
+
+Overall productivity score
+
+🏗️ Tech Stack
+
+Frontend: React.js / Electron Renderer
+
+Backend: Node.js, Express
+
+Database: MongoDB
+
+Desktop Runtime: Electron.js
+
+State Management: Redux
+
+UI: Material UI / Custom components
+
+🔒 Authentication & Security
+
+JWT-based authentication
+
+Role-based access control (RBAC)
+
+Secure communication between preload, main, and renderer
+
+Credentials : 
+Admin : Email : karanrawat914906@gmail.com
+        password: karan1234
+developer : Email : karanrawat9149@gmail.com
+        password: karan1234
+client : Email : swaticoach10@gmail.com
+        password: karan1234
