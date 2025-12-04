@@ -1,3 +1,6 @@
+CREDENTIALS ARE AT BOTTOM. 
+
+
 CRM System – Multi-Dashboard Desktop Application
 
 A powerful CRM desktop application built with Electron.js that provides role-based dashboards, real-time employee tracking, and comprehensive company management tools.
